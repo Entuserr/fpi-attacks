@@ -1,0 +1,8 @@
+__pycache__
+output.csv
+statistics
+statistics2
+*.pyc
+*.swp
+/.idea/
+/env/
