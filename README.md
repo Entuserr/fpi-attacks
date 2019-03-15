@@ -1,24 +1,46 @@
 # ФПИ - распознавание сетевых атак
 
+Для корректной работы программы понадобятся следующее ПО: python, pip, tshark.
+
+Установка необходимых программ:
+
+  Установить python:
+
+  ```
+  sudo apt install python3
+  ```
+
+  Установить pip:
+
+  ```
+  sudo apt install python3-pip
+  ```
+
+  Установить tshark:
+
+  ```
+  sudo apt-get install wireshark tshark
+  ```
+
 Установку необходимых модулей удобнее всего выполнять в виртуальном окружении:
 
-Установить virtualenv:
+  Установить virtualenv:
 
-```
-python3 -m pip install --user virtualenv
-```
-Создать виртуальное окружение:
-```
-python3 -m virtualenv env
-```
-Активировать виртуальное окружение: 
-```
-source env/bin/activate
-```
-Установить необходимые модули: 
-```
-pip install -r requirements.txt
-```
+  ```
+  python3 -m pip install --user virtualenv
+  ```
+  Создать виртуальное окружение:
+  ```
+  python3 -m virtualenv env
+  ```
+  Активировать виртуальное окружение: 
+  ```
+  source env/bin/activate
+  ```
+  Установить необходимые модули: 
+  ```
+  pip install -r requirements.txt
+  ```
 Запускать программу так как :
 
 ```
